@@ -8,7 +8,7 @@ import os
 
 
 def _get_authorization_header():
-    return 'Bearer some_token_value'
+    return 'Bearer YOUR_API_TOKEN'
 
 
 def _format_record(record, extras, ignore_keys):
